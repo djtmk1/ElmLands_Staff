@@ -1,0 +1,41 @@
+name: ElmLands_Staff
+version: '1.0'
+main: org.djtmk.Elmlandsstaff.ElmLands_STAFF
+api-version: '1.21'
+authors: [ djtmk ]
+
+commands:
+  v:
+    description: Toggle vanish
+  vanish:
+    description: Toggle vanish
+  turn:
+    description: Turn a player around
+  mutechat:
+    description: Mute/unmute chat
+  onlinestaff:
+    description: List online staff members
+  staffrtp:
+    description: Randomly teleports you to a player
+  elmlandsstaffreload:
+    description: Reload the config of the plugin
+  cpstest:
+    description: Start a CPS test for a player
+  freeze:
+    description: Freeze or unfreeze a player
+
+permissions:
+  elmlands.staff:
+    description: Base permission for all staff members
+    children:
+      elmlands.staff.vanish: true
+      elmlands.staff.staffrtp: true
+      elmlands.staff.cpstest: true
+      elmlands.staff.turn: true
+      elmlands.staff.nightvision: true
+      elmlands.staff.bypassmute: true
+      elmlands.staff.mutechat: true
+      elmlands.staff.onlinestaff: true
+      elmlands.staff.vanish.see: true
+      elmlands.staff.reload: true
+      elmlands.staff.freeze: true

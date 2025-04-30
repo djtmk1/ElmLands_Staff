@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ElmLands_Staff:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ElmLands_Staff_jar</output-path>
+    <root id="archive" name="ElmLands_Staff.jar">
+      <element id="module-output" name="ElmLands_Staff" />
+    </root>
+  </artifact>
+</component>
