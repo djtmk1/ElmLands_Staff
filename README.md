@@ -20,11 +20,9 @@
 - **CPS Testing**: Measure a player’s clicks per second (`/cpstest <player>`) to detect potential autoclickers.
 - **Player Freezing**: Immobilize players (`/freeze <player>`) to prevent movement or interaction during investigations.
 - **Chat Management**: Mute global chat (`/mutechat`) with bypass permissions for staff.
-- **Anti-VPN Protection**: Automatically bans players using blacklisted ISPs (configurable via `config.yml`) using the [ip-api.com](http://ip-api.com) service.
 - **Night Vision**: Toggle night vision (`/nightvision`) for staff via custom items.
 - **Online Staff List**: View online staff members (`/onlinestaff`), with vanished staff visible to authorized users.
 - **Environment Protection**: Prevent vanished staff from trampling crops or being targeted by mobs.
-- **Configurable**: Customize blacklisted ISPs and other settings in `config.yml`.
 
 ## Installation
 

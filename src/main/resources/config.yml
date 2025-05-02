@@ -1,4 +1,0 @@
-blacklisted_isps:
-  - "Cloudflare"
-  - "ISP2"
-  - "ISP3"

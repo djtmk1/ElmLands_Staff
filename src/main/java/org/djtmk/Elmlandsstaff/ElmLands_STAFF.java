@@ -38,7 +38,6 @@ public class ElmLands_STAFF extends JavaPlugin implements Listener {
 
         // Register events
         getServer().getPluginManager().registerEvents(this, this);
-        getServer().getPluginManager().registerEvents(new AntiVPN(this), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractHandler(this), this);
         getServer().getPluginManager().registerEvents(new PlayerPickupItemHandler(this), this);
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatHandler(this), this);
